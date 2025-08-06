@@ -1,0 +1,11 @@
+/* Footer */
+.footer {
+  background-color: var(--nav-color);
+  padding: var(--space-m) 0;
+  text-align: center;
+}
+
+.copyright {
+  color: var(--light-color);
+  font-size: var(--text-sm);
+}
