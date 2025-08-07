@@ -247,7 +247,7 @@ a:hover {
 
 .subtitle {
   font-size: clamp(19.2px, 3vw, 28.8px);
-  color: var(--title-color);
+  color: var(--light-color);
   margin-bottom: clamp(0.9375rem, 3vw, 1.5625rem);
   font-weight: 600;
 }
@@ -340,8 +340,8 @@ a:hover {
 }
 
 .intro-text {
-  font-size: var(--font-size-large);
-  color: var(--error);
+  font-size: var(--font-size-small);
+  color: var(--light-color);
   margin-bottom: 0.625rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -368,7 +368,7 @@ a:hover {
   margin-bottom: clamp(1.25rem, 3vw, 1.875rem);
   line-height: 1.7;
   font-weight: 600;
-  color: var(--title-color);
+  color: var(--light-color);
 }
 
 .cta-buttons {
@@ -405,7 +405,7 @@ a:hover {
 .cta-button.secondary {
   background-color: transparent;
   border-color: var(--accent);
-  color: var(--text-color);
+  color: var(--light-color);
 }
 
 .cta-button.secondary:hover {
@@ -1312,7 +1312,11 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
   }
-}
+
+  
+.intro-text {
+  margin-top: 3rem;
+}}
 
 /* Small Mobile Styles (max-width: 30rem) */
 @media (max-width: 30rem) {
